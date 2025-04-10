@@ -6,7 +6,11 @@
       <class name="LevelApp.LevelApp">
         <methods>
           <include name="setup"/>
+          <include name="login_with_valid_phone_number"/>
+          <include name="enter_valid_otp"/>
+          <include name="enter_invalid_otp"/>
           <include name="login_with_valid_email"/>
+          <include name="login_with_invalid_phone_number"/>
         </methods>
       </class> <!-- LevelApp.LevelApp -->
     </classes>
